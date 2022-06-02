@@ -19,9 +19,9 @@ function Abilities() {
   ];
 
   return (
-    <div className="flex gap-2 w-[80%]">
+    <div className="px-2 py-10 max-w-5xl flex gap-2 flex-wrap justify-center">
 
-      <div className="w-full">
+      <div className="flex-1 max-w-sm">
         <h3 className="text-lg">Skills</h3>
         <p className="mb-16 min-w-[360px]">Some of my skills that I known.</p>
 
@@ -41,7 +41,7 @@ function Abilities() {
         </ul>
       </div>
 
-      <div className="w-full">
+      <div className="flex-1 max-w-sm">
         <h3 className="text-lg">Weakness</h3>
         <p className="mb-16 min-w-[360px]">Here, some skills that I don't have, or I just know how to get by</p>
 
