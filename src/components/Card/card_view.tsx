@@ -11,8 +11,8 @@ function Card({
 }) {
 
   return (
-    <div key={tech} className="flex-1">
-      <div className="mb-5 p-10 bg-black items-center rounded-3xl transition-all hover:animate-shadow-image duration-200" >
+    <div key={tech} className="flex-1 px-3">
+      <div className="mb-5 p-10 sm:p-1 md:p-6 bg-black items-center rounded-3xl transition-all hover:animate-shadow-image duration-200" >
         <div className="w-28 h-28 flex items-center justify-center mx-auto mt-0 mb-6 rounded-[200px] transition duration-[5s] animate-gradient-image bg-gradient-to-r from-[#04e5e5] via-[#ef4e7b]  to-[#a166ab] "> 
           <img className="max-w-16 max-h-16" src={icon} alt="Mobile"/>
         </div>

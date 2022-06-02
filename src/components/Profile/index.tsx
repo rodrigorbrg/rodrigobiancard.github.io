@@ -27,10 +27,10 @@ function Profile() {
         
       </div>
       {/* <p className="text-left px-40 leading-6 text-white mb-0 mt-0 text-sm font-light" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> */}
-      <div className="mb-12 my-10 max-w-4xl mx-auto items-center justify-center flex relative">
+      <div className="mb-12 sm:my-2 md:my-8 my-10 max-w-4xl mx-auto items-center justify-center flex relative">
         <div className="px-4 text-center ">
-          <h5 className="text-green-500 text-4xl font-normal font-[poppins-semibold] p-0 m-0 box-border leading-6 mb-4">About Me</h5>
-          <h1 className="text-center text-5xl text-white font-normal font-[poppins-semibold] p-0 m-0  box-border leading-6 mb-2">Who am I?</h1>
+          <h5 className="text-green-500 text-4xl font-normal font-[poppins-semibold] p-0 m-0 box-border md:leading-6 mb-4">About Me</h5>
+          <h1 className="text-center text-5xl text-white font-normal font-[poppins-semibold] p-0 m-0  box-border md:leading-6 mb-2">Who am I?</h1>
         </div>   		
         <p className="m-0 p-0 px-10 md:px-6 sm:px-2 break-words">
             <span className="text-justify font-[lora-regular] font-normal text-2xl leading-8">Mobile Developer, software engineer, </span>

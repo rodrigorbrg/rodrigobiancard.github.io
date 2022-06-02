@@ -15,7 +15,7 @@ function Home() {
       <Header/>
       <main>
 
-        <div className="relative snap-y overflow-y-scroll h-screen snap-mandatory mx-auto flex flex-col items-center">
+        <div className="relative sm:snap-proximity snap-y md:overflow-y-scroll md:h-screen md:snap-mandatory mx-auto flex flex-col items-center">
           
           <section id="profile" className="w-screen min-h-screen snap-start mx-auto">
             <img className="w-full h-full bg-cover max-h-[260px]" src={slide}/>
