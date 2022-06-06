@@ -27,9 +27,10 @@ function Home() {
               <span className="text-5xl text-center text-white font-medium">My Services</span>
             </h2>
             <div className="justify-center mx-auto flex gap-2 flex-wrap">
-              <Card icon={mobile} tech={'Mobile App\nDevelopment'} descriptions={['Lorem ipsum dolor sit amet', 'In vitae ultricies lacus vitae', 'Pellentesque blandit libero']} />
-              <Card icon={beckend} tech={'Beckend\nDevelopment'} descriptions={['Lorem ipsum dolor sit amet', 'In vitae ultricies lacus vitae', 'Pellentesque blandit libero']} />
+              <Card icon={mobile} tech={'Mobile App\nDevelopment'} descriptions={['React Native, Hooks, Typescript, Redux', 'CI/CD to publish in all stores with Bitrise', 'Unit Tests, end-to-end testing with Detox']} />
+              <Card icon={beckend} tech={'Beckend\nDevelopment'} descriptions={['Node.js with Express.js', 'Integrated with AWS Cognito', 'Connect APIs with SQS, SNS and AWS Lambda']} />
               <Card icon={web} tech={'Web\nDevelopment'} descriptions={['Lorem ipsum dolor sit amet', 'In vitae ultricies lacus vitae', 'Pellentesque blandit libero']}  />
+              <Card icon={web} tech={'AWS Certified\nCloud Practitioner '} descriptions={['Lorem ipsum dolor sit amet', 'In vitae ultricies lacus vitae', 'GraphQl, using AWS Cognito, and AppSync']}  />
             </div>
           </section>
 

@@ -19,7 +19,7 @@ function Abilities() {
   ];
 
   return (
-    <div className="px-4 py-10 sm:px-2 max-w-5xl flex gap-2 flex-wrap justify-center">
+    <div className="px-4 py-10 sm:px-2 flex gap-2 flex-wrap justify-center">
 
       <div className="max-w-md w-full sm:px-2">
         <h3 className="text-lg">Skills</h3>
