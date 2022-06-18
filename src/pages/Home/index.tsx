@@ -7,6 +7,7 @@ import Profile from "../../components/Profile";
 import mobile from "../../assets/mobile.png";
 import beckend from "../../assets/beckend.png";
 import web from "../../assets/web.png";
+import aws from "../../assets/aws-certified-cloud-practitioner.png";
 import slide from "../../assets/slide-bg.jpeg";
 
 function Home() {
@@ -29,8 +30,8 @@ function Home() {
             <div className="justify-center mx-auto flex gap-2 flex-wrap">
               <Card icon={mobile} tech={'Mobile App\nDevelopment'} descriptions={['React Native, Hooks, Typescript, Redux', 'CI/CD to publish in all stores with Bitrise', 'Unit Tests, end-to-end testing with Detox']} />
               <Card icon={beckend} tech={'Beckend\nDevelopment'} descriptions={['Node.js with Express.js', 'Integrated with AWS Cognito', 'Connect APIs with SQS, SNS and AWS Lambda']} />
-              <Card icon={web} tech={'Web\nDevelopment'} descriptions={['Lorem ipsum dolor sit amet', 'In vitae ultricies lacus vitae', 'Pellentesque blandit libero']}  />
-              <Card icon={web} tech={'AWS Certified\nCloud Practitioner '} descriptions={['Lorem ipsum dolor sit amet', 'In vitae ultricies lacus vitae', 'GraphQl, using AWS Cognito, and AppSync']}  />
+              <Card icon={web} tech={'Web\nDevelopment'} descriptions={['Maintenance of React Application', 'CI/DI to deploy', 'GraphQl, using AWS Cognito, and AppSync']}  />
+              <Card icon={beckend} tech={'AWS Certified\nCloud Practitioner '} descriptions={['Management and monitoring of cloud platforms', 'Designing and building applications on the cloud', 'Understanding of data security and compliance laws']}  />
             </div>
           </section>
 
